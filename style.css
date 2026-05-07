@@ -57,3 +57,26 @@ nav.navbar ol {
 div.hero img {
     width: 100%;
 }
+/* ##### content ##### */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    height: 600px;
+    width: 100%;
+
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.content img {
+    height: 180px;
+    border-radius: 50%;
+    width: 180px;
+}
